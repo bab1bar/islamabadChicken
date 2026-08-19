@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nori+Nastaliq+Urdu:wght@400&display=swap" rel="stylesheet">
+   
+   @font-face {
+    font-family: "JameelNoori";
+    src: url("JameelNooriNastaleeqKasheeda.ttf") format("truetype");
+    -->
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <title>Chicken shop</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<!-- =========================
+     MAIN NAVBAR
+========================= -->
+
+<header class="site-header">
+
+    <nav class="navbar">
+
+        <!-- Logo -->
+        <a href="index.html" class="brand">
+
+            <div class="brand-logo">
+                🐔
+            </div>
+
+            <div class="brand-text">
+                <strong>Fresh Meat</strong>
+                <span>Chicken • Beef • Mutton</span>
+            </div>
+
+        </a>
+
+
+        <!-- Desktop Navigation -->
+        <div class="nav-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#chicken">Chicken</a>
+
+            <a href="#beef">Beef</a>
+
+            <a href="#mutton">Mutton</a>
+
+        </div>
+
+
+        <!-- Search -->
+        <div class="nav-search">
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search products..."
+                aria-label="Search products"
+            >
+
+            <button
+                type="button"
+                id="searchButton"
+                aria-label="Search"
+            >
+                🔍
+            </button>
+
+        </div>
+
+
+        <!-- Actions -->
+        <div class="nav-actions">
+
+            <!-- Order Mode -->
+            <button
+                class="nav-action"
+                id="orderModeButton"
+                type="button"
+                title="Switch order mode"
+            >
+                👤
+                <span>Personal</span>
+            </button>
+
+
+            <!-- Language -->
+            <button
+                class="nav-action"
+                id="languageButton"
+                type="button"
+                title="Change language"
+            >
+                🇬🇧
+                <span>EN</span>
+            </button>
+
+
+            <!-- Theme -->
+            <button
+                class="nav-action icon-button"
+                id="themeButton"
+                type="button"
+                title="Toggle dark mode"
+                aria-label="Toggle dark mode"
+            >
+                🌙
+            </button>
+
+
+            <!-- Wishlist -->
+            <button
+                class="nav-action icon-button"
+                id="wishlistButton"
+                type="button"
+                title="Wishlist"
+                aria-label="Wishlist"
+            >
+                ❤️
+            </button>
+
+
+            <!-- Cart -->
+            <button
+                class="nav-action cart-button"
+                id="cartButton"
+                type="button"
+                title="Shopping cart"
+                aria-label="Shopping cart"
+            >
+
+                🛒
+
+                <span
+                    class="cart-count"
+                    id="cartCount"
+                >
+                    0
+                </span>
+
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Menu Button -->
+        <button
+            class="menu-button"
+            id="menuButton"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+    </nav>
+
+
+    <!-- Mobile Navigation -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu">
+
+        <a href="#home">Home</a>
+
+        <a href="#chicken">🐔 Chicken</a>
+
+        <a href="#beef">🐄 Beef</a>
+
+        <a href="#mutton">🐑 Mutton</a>
+
+        <a href="#orders">📦 My Orders</a>
+
+        <a href="#account">👤 Account</a>
+
+        <a href="#wishlist">❤️ Wishlist</a>
+
+        <a href="#contact">📞 Contact</a>
+
+    </div>
+
+</header>
+
+<section>
+    <div id="product-list"></div>
+</section>
+
+
+    <!-- <section id="product-list">
+
+
+    <div id="product-list"></div>
+</section> -->
+
+
+
+<div id="cartPanel" class="cart-panel">
+
+    <div class="cart-header">
+        <h2>🛒 Your Cart</h2>
+
+        <button id="closeCartButton" type="button">
+            ✕
+        </button>
+    </div>
+
+    <div id="cartItems" class="cart-items">
+        <!-- Cart products will appear here -->
+    </div>
+    <div class="cart-total">
+    💰 Total: <span id="cartTotal">Rs. 0</span>
+</div>
+
+</div>
+
+<div id="cartOverlay" class="cart-overlay"></div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
