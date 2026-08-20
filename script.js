@@ -250,44 +250,28 @@ productList.addEventListener("click", function(event) {
         });
 
         if (product) {
-            cart.push(product);
-            cartCount.textContent = cart.length;
+
+            const existingItem = cart.find(function(item) {
+                return item.product.id === product.id;
+            });
+
+            if (existingItem) {
+
+                existingItem.quantity++;
+
+            } else {
+
+                cart.push({
+                    product: product,
+                    quantity: 1
+                });
+
+            }
+
+            updateCartCount();
         }
-
-if (product) {
-
-    const existingItem = cart.find(function(item) {
-        return item.product.id === product.id;
-    });
-
-    if (existingItem) {
-
-        existingItem.quantity++;
-        
-
-    } else {
-
-        cart.push({
-            product: product,
-            quantity: 1
-        });
-
     }
-
-    updateCartCount();
-}
-
-
-
-    }
-
 });
-
-
-
-
-
-
 
 
 
