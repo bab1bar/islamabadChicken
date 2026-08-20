@@ -7,7 +7,7 @@ const products = [
         name_ur: "پورا چکن",
         price: 900,
         unit: "kg",
-        photo: "images/whole-chicken.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/whole-chicken.png"
     },
 
     {
@@ -17,7 +17,7 @@ const products = [
         name_ur: "پورا چکن (جلد اترا ہوا)",
         price: 1200,
         unit: "kg",
-        photo: "images/whole-chicken-skin.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/whole-chicken.png"
     },
 
     {
