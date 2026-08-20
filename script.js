@@ -7,7 +7,7 @@ const products = [
         name_ur: "پورا چکن",
         price: 900,
         unit: "kg",
-        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/whole-chicken.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/whole-chicken-skin.png"
     },
 
     {
@@ -27,7 +27,7 @@ const products = [
         name_ur: "تکہ کٹ",
         price: 500,
         unit: "piece",
-        photo: "images/tikka.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/tikka.png"
     },
 
     {
@@ -37,7 +37,7 @@ const products = [
         name_ur: "کڑاہی کٹ",
         price: 800,
         unit: "kg",
-        photo: "images/karahi-cut.PNG"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/golden-pieces.png"
     },
 
     {
@@ -47,7 +47,7 @@ const products = [
         name_ur: "پوٹھا اور کلیجی",
         price: 400,
         unit: "kg",
-        photo: "images/pota-kaleji.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/pota-kalegi.png"
     },
 
     {
@@ -57,7 +57,7 @@ const products = [
         name_ur: "چکن کی گردن",
         price: 399,
         unit: "kg",
-        photo: "images/neck.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/neck.png"
     },
 
     {
@@ -67,7 +67,7 @@ const products = [
         name_ur: "گولڈن پیسز",
         price: 950,
         unit: "kg",
-        photo: "images/golden-pieces.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/golden-pieces.png"
     },
 
     {
@@ -77,7 +77,7 @@ const products = [
         name_ur: "چکن کی دم",
         price: 200,
         unit: "kg",
-        photo: "images/chicken-tail.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/chicken-ass.png"
     },
 
     {
@@ -87,7 +87,7 @@ const products = [
         name_ur: "چکن ونگز",
         price: 350,
         unit: "kg",
-        photo: "images/full-wings.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/full-wings.png"
     },
 
     {
@@ -107,7 +107,7 @@ const products = [
         name_ur: "چکن کے پنجے",
         price: 600,
         unit: "kg",
-        photo: "images/panjy.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/panjy.png"
     },
 
     {
@@ -117,7 +117,7 @@ const products = [
         name_ur: "اسٹر فرائی",
         price: 1500,
         unit: "kg",
-        photo: "images/stir-fry.jpg"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/stir-fry.jpg"
     },
 
     {
@@ -127,7 +127,7 @@ const products = [
         name_ur: "بون لیس چکن",
         price: 1400,
         unit: "kg",
-        photo: "images/boneless-cut.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/boneless-cut.png"
     },
 
     {
@@ -137,7 +137,7 @@ const products = [
         name_ur: "جلد سمیت چکن ڈرم اسٹکس",
         price: 1300,
         unit: "kg",
-        photo: "images/drumstick-skin.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/drumstick-skin.png"
     },
 
     {
@@ -157,7 +157,7 @@ const products = [
         name_ur: "دیسی چکن",
         price: 2999,
         unit: "kg",
-        photo: "images/desi-chicken.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/desi-chicken.PNG"
     },
 
     {
@@ -167,7 +167,7 @@ const products = [
         name_ur: "چکن بریسٹ",
         price: 1700,
         unit: "kg",
-        photo: "images/breastfull.PNG"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/breastfull.PNG"
     },
 
     {
@@ -197,7 +197,7 @@ const products = [
         name_ur: "چکن کلیجی",
         price: 400,
         unit: "kg",
-        photo: "images/kalegi.png"
+        photo: "https://raw.githubusercontent.com/bab1bar/Raja-meat-Shop/aae95908c941cc7db331d8a791de4b409e255d74/kalegi.png"
     }
 
 ];
